@@ -1,0 +1,41 @@
+:host{
+    flex: 1;
+    min-height: 35rem;
+    border-radius: var(--border-radius);
+    border: 1px solid #D9F0B8;
+    background-color: #fff;
+    padding: 1.5rem;
+
+    .title{
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    i{
+        font-size: 0.5rem;
+    }
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .total-count{
+        font-size: 0.85rem;
+    }
+
+    .todo{
+        color: #9ca3af;
+    }
+
+    .inProgress{
+        color: var(--lime-green);
+    }
+
+    .done{
+        color: #22c55e;
+    }
+}
