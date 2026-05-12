@@ -1,0 +1,53 @@
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  @include flex-align-center();
+  justify-content: space-between;
+  padding: 1.25rem;
+
+  .actions {
+    @include flex-align-center();
+    gap: 0.625rem;
+
+    select,
+    button {
+      padding: 0.8rem 1.25rem;
+      font-size: 1rem;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-size: 1rem;
+      padding-right: 2.25rem;
+      border: 1px solid #e5e7eb;
+      outline: none;
+      position: relative;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%236b7280' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+
+      &:hover{
+        background-color: var(--hover-gray);
+      }
+    }
+
+    button {
+      background-color: var(--lime-green);
+      color: #fff;
+      border: none;
+
+      &:hover{
+        background-color: var(--dark-lime);
+      }
+    }
+  }
+}
