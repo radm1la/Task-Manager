@@ -3,7 +3,12 @@
   align-items: center;
 }
 
+:host{
+  width: 100%;
+}
+
 header {
+  width: 100%;
   @include flex-align-center();
   justify-content: space-between;
   padding: 1.25rem;
