@@ -5,13 +5,14 @@
 
 :host{
   width: 100%;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 header {
   width: 100%;
   @include flex-align-center();
   justify-content: space-between;
-  padding: 1.25rem;
+  padding: 1rem;
 
   .actions {
     @include flex-align-center();

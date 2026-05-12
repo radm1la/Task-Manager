@@ -10,5 +10,5 @@ import { Sidebar } from "./layout/sidebar/sidebar";
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('TaskManager');
+  
 }
