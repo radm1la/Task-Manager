@@ -1,0 +1,6 @@
+<div class="task-wrapper" [class]="task.column">
+  <span [class]="task.priority" class="priority"> {{ task.priority | titlecase }} </span>
+  <h3>{{ task.title }}</h3>
+  <p class="description">{{ task.description }}</p>
+  <span class="date"> {{ task.createdAt | date }} </span>
+</div>

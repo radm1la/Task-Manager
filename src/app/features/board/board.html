@@ -1,5 +1,5 @@
 <div class="board">
     @for (column of columns; track column.id) {
-        <app-column [column]="column" ></app-column>
+        <app-column [column]="column" [tasks] = "getTasksByColumn(column.id)"></app-column>
     }
 </div>

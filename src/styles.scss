@@ -1,16 +1,30 @@
-:root{
-    --border-radius: 12px;
-    --lime-green:#9CDC4D;
-    --dark-lime:#8BC63F;
-    --hover-gray:#f9fafb;
-    --inactive-icon:#4b5563;
-    --active-icon:#d8f9b8;
-    --page-bg:#F8FDF4;
+:root {
+  --border-radius: 12px;
+  --lime-green: #9cdc4d;
+  --dark-lime: #8bc63f;
+  --hover-gray: #f9fafb;
+  --inactive-icon: #4b5563;
+  --active-icon: #d8f9b8;
+  --page-bg: #f8fdf4;
+  --border-color: #e5e7eb;
+  --muted-txt:#ececf0;
+  --date-color:#6b7280;
+
+  --high-pr-bg: #fef2f2;
+  --high-pr-txt: #dc2626;
+  --high-pr-br: #fecaca;
+
+  --med-pr-bg: #fffbeb;
+  --med-pr-txt: #d97706;
+  --med-pr-br: #fde68a;
+
+  --low-pr-bg: #f0fdf4;
+  --low-pr-txt: #16a34a;
+  --low-pr-br: #bbf7d0;
 }
 
-*{
-    padding:0 ;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
